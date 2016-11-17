@@ -124,7 +124,7 @@ int main(int argc, char **argv){
 	argv=np_extra_opts (&argc, argv, progname);
 
 	if(process_arguments(argc,argv) == ERROR)
-		usage4 (_("Could not parse arguments"));
+		usage4 (_("ek kan nie die argumente parse nie"));
 
 	/* initialize alarm signal handling */
 	signal(SIGALRM,socket_timeout_alarm_handler);
